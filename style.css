@@ -50,3 +50,14 @@ body {
 .input:focus {
   outline: none;
 }
+
+/* the search effect, when active class added
+searchbox expands, btn moves to right
+*/
+.search.active .input {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+}
